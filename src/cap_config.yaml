@@ -1,0 +1,33 @@
+data:
+  folder: "data"
+  labeled_data: "300_users_labeled_data.csv"
+  unlabeled_data: "300_users_unlabeled_data.csv"
+
+hyperparameters:
+  kappa_0: 1
+  rho_0: 10
+  lambda_0: 1
+  tau_0: 2
+  alpha: 10000
+  beta: 10
+  gamma: 10
+  b: 3
+  mu_0: "__MU_0__"
+  psi_0: "__PSI_0__"
+  nu_0: "__NU_0__"
+  epsilon_0: "__EPSILON_0__"
+
+entities:
+  n_regions: 30
+  n_categories: 125
+  n_temporal_components: 2
+
+generative_process:
+  n_users: 100
+  n_records: 1000
+
+collapsed_gibbs_sampling:
+  M: 20
+
+evaluation:
+  N: 5

@@ -1,0 +1,17 @@
+{
+    "autoDocstring.docstringFormat": "numpy",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.lintOnSave": true,
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "python.formatting.blackArgs": [
+        "--line-length=114"
+    ],
+    "python.linting.flake8Args": [
+        "--line-length=114"
+    ]
+}
